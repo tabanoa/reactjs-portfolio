@@ -14,25 +14,30 @@ function App() {
     <Router>
     <div className="app">
       <Switch>
-      <Route path="/orders">
+      <Route path="/home">
+        <Navbar />
+        <Home />
+      </Route>
+      <Route path="/about">
         <Navbar />
         <About />
       </Route>
-      <Route path="/login">
-          <Portfolio />
-        </Route>
-        <Route path="/checkout">
-          <Navbar />
-          <Technologies />
-        </Route>
-        <Route path="/checkout">
-          <Navbar />
-          <Contact />
-        </Route>
-        <Route path="/">
-          <Navbar />
-          <Home />
-        </Route>
+      <Route path="/portfolio">
+        <Navbar />
+        <Portfolio />
+      </Route>
+      <Route path="/technologies">
+        <Navbar />
+        <Technologies />
+      </Route>
+      <Route path="/contact">
+        <Navbar />
+        <Contact />
+      </Route>
+      <Route path="/">
+        <Navbar />
+        <Home />
+      </Route>
       </Switch>
     </div>
   </Router>

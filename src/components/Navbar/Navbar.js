@@ -41,12 +41,23 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/blog"
+                to="/portfolio"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
                 Portfolio
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/technologies"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Technolgies
               </NavLink>
             </li>
             <li className="nav-item">

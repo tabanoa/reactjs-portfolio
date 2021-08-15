@@ -1,0 +1,39 @@
+.img {
+    float: right;
+    opacity: 0.4;
+    transform: rotate(20deg);
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(to right, red, purple);
+    padding: 3px;
+    grid-area: overlap;
+
+}
+
+.home{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "overlap";
+}
+
+.banner{
+    padding: 80px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 60px;
+}
+.btn {
+    background-color: rgb(174, 162, 238);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: rgb(62, 38, 202);
+  }
