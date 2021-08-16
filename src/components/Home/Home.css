@@ -10,11 +10,16 @@
 
 }
 
+.welcome {
+     
+}
+
 .home{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "overlap";
+    
 }
 
 .banner{
@@ -26,14 +31,21 @@
 }
 .btn {
     background-color: rgb(174, 162, 238);
+    display: inline-flex;
     border: none;
     color: white;
     padding: 12px 30px;
     cursor: pointer;
     font-size: 20px;
+    align-items: middle;
   }
   
   /* Darker background on mouse-over */
   .btn:hover {
     background-color: rgb(62, 38, 202);
+  }
+
+  .center__icons {
+    display: inline-flex;
+    align-items: center;
   }

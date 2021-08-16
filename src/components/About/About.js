@@ -1,27 +1,85 @@
 import React from 'react';
-import './About.css';
+// import PropTypes from 'prop-types';
+import { makeStyles } from '@material-ui/core/styles';
+import Toolbar from '@material-ui/core/Toolbar';
+import Button from '@material-ui/core/Button';
+import IconButton from '@material-ui/core/IconButton';
+import SearchIcon from '@material-ui/icons/Search';
+import Typography from '@material-ui/core/Typography';
+import Link from '@material-ui/core/Link';
 
+const sections = [
+    { title: 'Technology', url: '#' },
+    { title: 'Design', url: '#' },
+    { title: 'Culture', url: '#' },
+    { title: 'Business', url: '#' },
+    { title: 'Politics', url: '#' },
+    { title: 'Opinion', url: '#' },
+    { title: 'Science', url: '#' },
+    { title: 'Health', url: '#' },
+    { title: 'Style', url: '#' },
+    { title: 'Travel', url: '#' },
+  ];
 
-function About() {
-    return (
-        <div className="about">
-           <h1>About me!</h1>
-           <h4>Allow me to introduce myself.</h4>
-            <div className="content">
-                <p className="p1">
-                My coding journey didn’t come easily to me like most programmers who have been
-                  programming since they were kids my passion came after completing my first project
-                   from scratch and seeing a vision of mine come to fusion and function properly. 
-                   It was an amazing feeling going from sketching out an idea to coding it. 
-                   Took time and alot of effort but it was a very rewarding feeling in the end.  
-                </p>
-                <br />
-                <p class="p2">
-                    
-                </p>
-            </div>
-        </div>
-    )
+const useStyles = makeStyles((theme) => ({
+  toolbar: {
+    borderBottom: `1px solid ${theme.palette.divider}`,
+  },
+  toolbarTitle: {
+    flex: 1,
+  },
+  toolbarSecondary: {
+    justifyContent: 'space-between',
+    overflowX: 'auto',
+  },
+  toolbarLink: {
+    padding: theme.spacing(1),
+    flexShrink: 0,
+  },
+}));
+
+export default function Header(props) {
+  const classes = useStyles();
+  const { sections, title } = props;
+
+  return (
+    <React.Fragment>
+      <Toolbar className={classes.toolbar}>
+        <Button size="small">Subscribe</Button>
+        <Typography
+          component="h2"
+          variant="h5"
+          color="inherit"
+          align="center"
+          noWrap
+          className={classes.toolbarTitle}
+        >
+          {title}
+        </Typography>
+        <IconButton>
+          <SearchIcon />
+        </IconButton>
+        <Button variant="outlined" size="small">
+          Sign up
+        </Button>
+      </Toolbar>
+      <Toolbar variant="dense" className={classes.toolbarSecondary}>
+        {/* {sections.map((section) => (
+          <Link
+            color="inherit"
+            noWrap
+            key={section.title}
+            variant="body2"
+            href={section.url}
+            className={classes.toolbarLink}
+          >
+            {section.title}
+          </Link>
+        ))} */}
+      </Toolbar>
+    </React.Fragment>
+      
+    );
 }
 
-export default About;
+// export default About;
