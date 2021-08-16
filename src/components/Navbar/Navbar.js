@@ -68,7 +68,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Contact 
+                Contact
               </NavLink>
             </li>
           </ul>
