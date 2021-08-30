@@ -13,25 +13,24 @@ const useStyles = makeStyles({
       boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
       color: 'white',
       height: 48,
-      padding: '0 30px',
     },
   });
   
   export default function Hook() {
     const classes = useStyles();
     return(
-        <div className="home">
+        <div className="home__container">
         <div>
         <Banner showBanner={true} className="banner">
         <img className="img" src="https://www.creativeboom.com/uploads/articles/4a/4a6be01a52c0223c81a2dddb8dd6da8473f8ea8d_810.jpg"/>
-        <div>
-            <h1 className="welcome">Welcome!</h1>
-            <h1 className="welcome">to my portfolio!</h1>
+        <div className="home__headers">
+            <h1 className="home__header">Welcome!</h1>
+            <h1 className="home__header">to my portfolio!</h1>
             <Button className={classes.root}><GetAppOutlinedIcon />Resume</Button>
         </div>
         </Banner>
         </div>
-    </div>
+       </div>
     )
   }
 

@@ -10,9 +10,14 @@
 
 }
 
-.welcome {
-     
+.home__container{
+
 }
+
+.home__headers {
+  font-size: 2rem;
+}
+
 
 .home{
     display: grid;

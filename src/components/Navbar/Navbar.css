@@ -20,7 +20,7 @@
   }
   
   .nav-logo {
-    color: #5b69e9;
+    color: #5b5de9;
     align-items: center;
     margin-left: 20px;
     cursor: pointer;
@@ -89,7 +89,7 @@
     }
   
     .nav-menu.active {
-      background: #1f5156;
+      background: #fcffff;
       left: 0px;
       opacity: 1;
       transition: all 0.5s ease;

@@ -1,0 +1,47 @@
+   [
+    {
+       "image": "",
+       "projectName": "Keda",
+       "description": "Keda is an iOS app which allows users to post high end clothing and acccesories for rent in a safe marketplace. It uses Swift, Firebase, Real-Time Database and allows users to pay using Apple Pay, Stripe and PayPal" ,
+       "view": "",
+       "source": ""
+    },
+    {
+        "image": "",
+        "projectName": "Hotel Reservation System",
+        "description": "A hotel reservation system built using Angular.js. It uses a custom GraphQL api and Mongo DB. This web application allows users to view, book and cancel hotel bookings.",
+        "view": "",
+        "source": ""
+     },
+     {
+        "image": "",
+        "projectName": "Amazon Clone",
+        "description": "An Amazon Clone built using React.js and Firebase. It uses cloud functions custom api to store user data and connect with the database",
+        "view": "",
+        "source": ""
+     },
+     {
+        "image": "",
+        "projectName": "employee management system",
+        "description": "An Employee management system built using React and MySQL. It uses cloud functions custom api to store",
+        "view": "",
+        "source": ""
+     },
+     {
+        "image": "",
+        "projectName": "Chat UI Challenge",
+        "description": "A chat ui challenge",
+        "view": "",
+        "source": ""
+     },
+     {
+        "image": "",
+        "projectName": "Three JS project",
+        "description": "A Threejs app which moves a cube using arrow keys",
+        "view": "",
+        "source": ""
+     }
+]
+
+
+

@@ -1,9 +1,10 @@
 import React from 'react';
-import { Box, Typography, Button, Card, CardActions, CardContent, CardMedia, CssBaseline,Grid, Toolbar, Container } from '@material-ui/core';
+import { Box, Typography, Button, Card, CardActions, CardContent, CardMedia, CssBaseline,Grid, Container } from '@material-ui/core';
 import { PhotoCamera } from '@material-ui/icons';
 import useStyles from './styles';
+import projects from '../../data/projects.json';
 
-const cards = [1,2,3,4,5,6,7,8,9]
+const cards = [1]
 
 function Portfolio() {
   const classes = useStyles();
@@ -33,26 +34,30 @@ function Portfolio() {
               My recent projects
             </Typography>
             <div className={classes.button}>
-              <Grid container spacing={2} justify="center">
+              <Grid container spacing={4} justify="center">
                 <Grid item>
                   <Button variant="contained" color="primary">
-                    See my projects
+                    My Github
                   </Button>
                 </Grid>
                 <Grid item>
                   <Button variant="outlined" color="primary">
-                    Secondary action
+                    Email Me
                   </Button>
                 </Grid>
               </Grid>
             </div>
           </Container>
         </div>
+        {/* Second container */}
         <Container className={classes.cardGrid} maxWidth="md">
+        {cards.map((card) => (
           <Grid container spacing={4}>
-            {cards.map((card) => (
-              <Grid item key={card} xs={6} md={4}>
-                <Card className={classes.card}>
+          { projects.map(post => {
+                    return(
+                      <>
+              <Grid item key={card} xs={12} sm={6} md={4} rows={3}>
+                <Card className={classes.card} >
                   <CardMedia
                     className={classes.cardMedia}
                     image="https://source.unsplash.com/random"
@@ -60,25 +65,28 @@ function Portfolio() {
                   />
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5">
-                      Header
+                      {post.projectName}
                     </Typography>
                     <Typography>
-                      Media card to describe project where u can write whatever
-                      you want about the project
+                      {post.description}
                     </Typography>
+
                   </CardContent>
                   <CardActions>
                     <Button size="small" color="primary">
                       View
                     </Button>
                     <Button size="small" color="primary">
-                      Edit
+                      Source
                     </Button>
                   </CardActions>
                 </Card>
-              </Grid>
-            ))}
+              </Grid> 
+              </>
+                  )
+                  })}
           </Grid>
+          ))}
         </Container>
       </main>
       <footer className={classes.footer}>
