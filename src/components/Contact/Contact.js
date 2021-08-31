@@ -1,10 +1,24 @@
 import React from 'react';
 import './Contact.css';
-import {Typography, Card, CardContent, Grid, TextField, Button} from '@material-ui/core'
+import {Typography, Card, CardContent, Grid, TextField, Button, Container} from '@material-ui/core';
+import { FolderSpecial } from '@material-ui/icons';
+
 
 function Contact(props) {
     return (
+      
       <div className="App">
+          <Container>
+           <Typography
+              variant="h2"
+              align="center"
+              color="textPrimary"
+              gutterBottom
+            >
+              Contact Me!
+          {/* <FolderSpecial className={classes.icon} /> */}
+        </Typography>
+      </Container>
         <Card style={{maxWidth:450, margin: "0 auto", padding:"20px 5px"}}>
           <CardContent>
           <Typography gutterBottom variant="h5">Let's get in contact!</Typography>

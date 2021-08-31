@@ -34,7 +34,7 @@
     color: white;
     font-size: 60px;
 }
-.btn {
+/* .btn {
     background-color: rgb(174, 162, 238);
     display: inline-flex;
     border: none;
@@ -43,7 +43,7 @@
     cursor: pointer;
     font-size: 20px;
     align-items: middle;
-  }
+  } */
   
   /* Darker background on mouse-over */
   .btn:hover {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Typography, Button, Card, CardActions, CardContent, CardMedia, CssBaseline,Grid, Container } from '@material-ui/core';
-import { PhotoCamera } from '@material-ui/icons';
+import { FolderSpecial } from '@material-ui/icons';
 import useStyles from './styles';
 import projects from '../../data/projects.json';
 
@@ -23,7 +23,7 @@ function Portfolio() {
               gutterBottom
             >
               Projects
-            <PhotoCamera className={classes.icon} />
+            <FolderSpecial className={classes.icon} />
             </Typography>
             <Typography
               variant="h5"
@@ -36,12 +36,12 @@ function Portfolio() {
             <div className={classes.button}>
               <Grid container spacing={4} justify="center">
                 <Grid item>
-                  <Button variant="contained" color="primary">
+                  <Button variant="contained" color="primary" href="https://github.com/tabanoa">
                     My Github
                   </Button>
                 </Grid>
                 <Grid item>
-                  <Button variant="outlined" color="primary">
+                  <Button variant="outlined" color="primary" href="mailto:manjot.sidhuu98@gmail.com">
                     Email Me
                   </Button>
                 </Grid>
@@ -49,7 +49,6 @@ function Portfolio() {
             </div>
           </Container>
         </div>
-        {/* Second container */}
         <Container className={classes.cardGrid} maxWidth="md">
         {cards.map((card) => (
           <Grid container spacing={4}>
@@ -60,8 +59,7 @@ function Portfolio() {
                 <Card className={classes.card} >
                   <CardMedia
                     className={classes.cardMedia}
-                    image="https://source.unsplash.com/random"
-                    title="Image title"
+                    image={post.image}
                   />
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5">
@@ -73,10 +71,10 @@ function Portfolio() {
 
                   </CardContent>
                   <CardActions>
-                    <Button size="small" color="primary">
+                    <Button size="small" color="primary" href={post.view}>
                       View
                     </Button>
-                    <Button size="small" color="primary">
+                    <Button size="small" color="primary" href={post.source}>
                       Source
                     </Button>
                   </CardActions>

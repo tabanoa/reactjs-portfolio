@@ -46,7 +46,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Portfolio
+                Projects
               </NavLink>
             </li>
             <li className="nav-item">
@@ -57,7 +57,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Technolgies
+                Skills
               </NavLink>
             </li>
             <li className="nav-item">

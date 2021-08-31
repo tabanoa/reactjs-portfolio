@@ -13,6 +13,10 @@ const useStyles = makeStyles({
       boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
       color: 'white',
       height: 48,
+      '&:hover': {
+        background: 'rgb(62, 38, 202)',
+        color: '#fff',
+      }
     },
   });
   
@@ -26,7 +30,7 @@ const useStyles = makeStyles({
         <div className="home__headers">
             <h1 className="home__header">Welcome!</h1>
             <h1 className="home__header">to my portfolio!</h1>
-            <Button className={classes.root}><GetAppOutlinedIcon />Resume</Button>
+            <Button className={classes.root} href="https://www.dropbox.com/s/ru540wxlvinu37f/Resume.pdf?dl=1"><GetAppOutlinedIcon />Resume</Button>
         </div>
         </Banner>
         </div>
