@@ -5,7 +5,7 @@
 }
 
 .banner__about {
-    background: #fff
+    background: #fff,
 }
 
 .about__header {
@@ -20,5 +20,5 @@
     padding-left: 20px;
     padding-right: 20px;
     font-size: 1.5rem;
-
+    text-decoration: 'line-through',
 }
