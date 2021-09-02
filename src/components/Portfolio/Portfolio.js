@@ -9,6 +9,7 @@ const cards = [1]
 function Portfolio() {
   const classes = useStyles();
   return (
+    <section id="projects">
     <>
       <Box>
         <CssBaseline />
@@ -80,6 +81,7 @@ function Portfolio() {
         </Container>
       </main>
     </>
+    </section>
   );
 }
 

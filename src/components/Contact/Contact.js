@@ -1,12 +1,10 @@
 import React from 'react';
 import './Contact.css';
 import {Typography, Card, CardContent, Grid, TextField, Button, Container} from '@material-ui/core';
-import { FolderSpecial } from '@material-ui/icons';
-
 
 function Contact(props) {
     return (
-      
+      <section id="contact">
       <div className="App">
           <Container>
            <Typography
@@ -89,6 +87,7 @@ function Contact(props) {
           </CardContent>
         </Card>
       </div>
+      </section>
     );
 }
 

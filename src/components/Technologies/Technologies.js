@@ -16,6 +16,7 @@ const cards = [1];
 function Technologies() {
   const classes = useStyles();
   return (
+    <section id="skills">
     <main>
       <Container>
         <Typography
@@ -53,6 +54,7 @@ function Technologies() {
         </Grid>
       </Container>
     </main>
+    </section>
   );
 }
 

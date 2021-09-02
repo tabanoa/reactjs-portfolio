@@ -4,35 +4,35 @@
        "projectName": "Keda",
        "description": "Keda is an iOS app which allows users to post high end clothing and acccesories for rent in a safe marketplace. It uses Swift, Firebase, Real-Time Database and allows users to pay using Apple Pay, Stripe and PayPal" ,
        "view": "",
-       "source": ""
+       "source": "https://github.com/tabanoa/Keda"
     },
     {
         "image": "https://imgur.com/ieawSwf.png",
         "projectName": "Hotel Reservation System",
         "description": "A hotel reservation system built using Angular.js. It uses a custom GraphQL api and Mongo DB. This web application allows users to view, book and cancel hotel bookings.",
         "view": "",
-        "source": ""
+        "source": "https://github.com/tabanoa/Graphql-Hotel-Reservation"
      },
      {
         "image": "https://camo.githubusercontent.com/b58dfa2b5711fd7a195e83770cb4f399b99e587f25892cc04c14138d53a23498/68747470733a2f2f696d6775722e636f6d2f303772687479632e706e67",
         "projectName": "Amazon Clone",
         "description": "An Amazon Clone built using React.js and Firebase. It uses cloud functions custom api to store user data and connect with the database",
-        "view": "",
-        "source": ""
+        "view": "https://clone-ea36f.web.app",
+        "source": "https://github.com/tabanoa/Amazon-Clone"
      },
      {
         "image": "https://imgur.com/b56nyV8.png",
         "projectName": "employee management system",
         "description": "An Employee management system built using React and MySQL. It uses cloud functions custom api to store",
-        "view": "",
-        "source": ""
+        "view": "https://clone-ea36f.web.app",
+        "source": "https://github.com/tabanoa/Amazon-Clone"
      },
      {
-        "image": "",
+        "image": "https://i.imgur.com/6Qls3kP.png",
         "projectName": "Chat UI Challenge",
         "description": "A chat ui challenge",
-        "view": "",
-        "source": ""
+        "view": "https://chat-webui-challenge.herokuapp.com/",
+        "source": "https://github.com/tabanoa/chatui-challenge"
      },
      {
         "image": "https://imgur.com/94EsvxO.png",

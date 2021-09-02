@@ -18,6 +18,7 @@ function NavBar() {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <NavLink
+                id="home"
                 exact
                 to="/"
                 activeClassName="active"
@@ -29,6 +30,7 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <NavLink
+              id="about"
                 exact
                 to="/about"
                 activeClassName="active"
@@ -40,6 +42,7 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <NavLink
+                id="projects"
                 exact
                 to="/portfolio"
                 activeClassName="active"
@@ -51,6 +54,7 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <NavLink
+                id="skills"
                 exact
                 to="/technologies"
                 activeClassName="active"
@@ -62,6 +66,7 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <NavLink
+                id="contact"
                 exact
                 to="/contact"
                 activeClassName="active"

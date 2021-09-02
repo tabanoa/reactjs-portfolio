@@ -5,9 +5,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import "./About.css"
 
 function About() {
-    // const classes = useStyles();
 
     return (
+        <section id="about">
         <div className="about">
         <div>
         <Banner showBanner={true} className="banner__about">
@@ -24,6 +24,7 @@ function About() {
         </Banner>
         </div>
        </div>
+       </section>
     )
 }
 

@@ -23,6 +23,7 @@ const useStyles = makeStyles({
   export default function Hook() {
     const classes = useStyles();
     return(
+        <section id="home">
         <div className="home__container">
         <div>
         <Banner showBanner={true} className="banner">
@@ -35,6 +36,7 @@ const useStyles = makeStyles({
         </Banner>
         </div>
        </div>
+       </section>
     )
   }
 
