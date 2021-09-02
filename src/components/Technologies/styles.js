@@ -13,12 +13,13 @@ const useStyles = makeStyles((theme) => ({
       ],
     },
     card: {
-        height: '100%',
+        height: '70%',
+        width: '70%',
         display: 'flex',
         flexDirection: 'column',
     },
     cardMedia: {
-        paddingTop: '81.25%',
+        paddingTop: '75%',
         borderRadius: '50%',
         margin: '28px'
     },

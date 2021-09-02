@@ -1,9 +1,12 @@
 import React from 'react'
 import Banner from 'react-js-banner';
 import { makeStyles } from '@material-ui/core/styles';
+
 import "./About.css"
 
 function About() {
+    // const classes = useStyles();
+
     return (
         <div className="about">
         <div>

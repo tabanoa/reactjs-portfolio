@@ -42,7 +42,7 @@ function Technologies() {
                       <CardContent className={classes.cardContent}>
                         <Typography gutterBottom variant="h5"></Typography>
                         {post.servicename}
-                        <Typography>{post.description}</Typography>
+                        {/* <Typography>{post.description}</Typography> */}
                       </CardContent>
                     </Card>
                   </Grid>

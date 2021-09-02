@@ -11,25 +11,55 @@
         "description": "Keda is an iOS app which allows users to post high end clothing and acccesories for rent in a safe marketplace. It uses Swift, Firebase, Real-Time Database and allows users to pay using Apple Pay, Stripe and PayPal" 
 
      },    {
-        "image": "https://i.imgur.com/jgdguGx.png",
+        "image": "https://imgur.com/cidbzjZ.png",
         "servicename": "Swift",
         "description": "Keda is an iOS app which allows users to post high end clothing and acccesories for rent in a safe marketplace. It uses Swift, Firebase, Real-Time Database and allows users to pay using Apple Pay, Stripe and PayPal" 
  
      },    {
-        "image": "https://i.imgur.com/jgdguGx.png",
+        "image": "https://imgur.com/tVez41i.png",
         "servicename": "Python",
         "description": "Keda is an iOS app which allows users to post high end clothing and acccesories for rent in a safe marketplace. It uses Swift, Firebase, Real-Time Database and allows users to pay using Apple Pay, Stripe and PayPal" 
  
      },    {
-        "image": "https://i.imgur.com/jgdguGx.png",
+        "image": "https://imgur.com/L7TcrFt.png",
         "servicename": "Java",
         "description": "Keda is an iOS app which allows users to post high end clothing and acccesories for rent in a safe marketplace. It uses Swift, Firebase, Real-Time Database and allows users to pay using Apple Pay, Stripe and PayPal" 
  
      },    {
-        "image": "https://i.imgur.com/jgdguGx.png",
+        "image": "https://imgur.com/R4f2DWk.png",
         "servicename": "Node",
         "description": "Keda is an iOS app which allows users to post high end clothing and acccesories for rent in a safe marketplace. It uses Swift, Firebase, Real-Time Database and allows users to pay using Apple Pay, Stripe and PayPal" 
- 
-     }
+
+     },  {
+      "image": "https://imgur.com/E9AqpLs.png",
+      "servicename": "JavaScript",
+      "description": "Keda is an iOS app which allows users to post high end clothing and acccesories for rent in a safe marketplace. It uses Swift, Firebase, Real-Time Database and allows users to pay using Apple Pay, Stripe and PayPal" 
+
+   },    {
+      "image": "https://imgur.com/L7TcrFt.png",
+      "servicename": "HTML/CSS",
+      "description": "Keda is an iOS app which allows users to post high end clothing and acccesories for rent in a safe marketplace. It uses Swift, Firebase, Real-Time Database and allows users to pay using Apple Pay, Stripe and PayPal" 
+
+   },    {
+      "image": "https://imgur.com/R4f2DWk.png",
+      "servicename": "Machine Learning",
+      "description": "Keda is an iOS app which allows users to post high end clothing and acccesories for rent in a safe marketplace. It uses Swift, Firebase, Real-Time Database and allows users to pay using Apple Pay, Stripe and PayPal" 
+
+   },  {
+      "image": "https://imgur.com/tVez41i.png",
+      "servicename": "mySQL",
+      "description": "Keda is an iOS app which allows users to post high end clothing and acccesories for rent in a safe marketplace. It uses Swift, Firebase, Real-Time Database and allows users to pay using Apple Pay, Stripe and PayPal" 
+
+   },    {
+      "image": "https://imgur.com/L7TcrFt.png",
+      "servicename": "mongoDb",
+      "description": "Keda is an iOS app which allows users to post high end clothing and acccesories for rent in a safe marketplace. It uses Swift, Firebase, Real-Time Database and allows users to pay using Apple Pay, Stripe and PayPal" 
+
+   },    {
+      "image": "https://imgur.com/R4f2DWk.png",
+      "servicename": "Firebase",
+      "description": "Keda is an iOS app which allows users to post high end clothing and acccesories for rent in a safe marketplace. It uses Swift, Firebase, Real-Time Database and allows users to pay using Apple Pay, Stripe and PayPal" 
+
+   }
 ]
 
