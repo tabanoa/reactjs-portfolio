@@ -25,14 +25,6 @@ function Portfolio() {
               Projects
             <FolderSpecial className={classes.icon} />
             </Typography>
-            <Typography
-              variant="h5"
-              align="center"
-              color="textSecondary"
-              paragraph
-            >
-              My recent projects
-            </Typography>
             <div className={classes.button}>
               <Grid container spacing={4} justify="center">
                 <Grid item>
@@ -87,14 +79,6 @@ function Portfolio() {
           ))}
         </Container>
       </main>
-      {/* <footer className={classes.footer}>
-        <Typography variant="h6" align="center" gutterBottom>
-          Footer
-        </Typography>
-        <Typography variant="subtitle1" align="center" color="textSecondary">
-          Something here to give purpose
-        </Typography>
-      </footer> */}
     </>
   );
 }
